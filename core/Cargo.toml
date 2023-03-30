@@ -74,6 +74,8 @@ services-memcached = ["dep:bb8"]
 services-moka = ["dep:moka"]
 # Enable services redis support
 services-redis = ["dep:redis"]
+# Enable services rediscluster support
+services-rediscluster = ["dep:redis"]
 # Enable services rocksdb support
 services-rocksdb = ["dep:rocksdb"]
 # Enable services sled support
